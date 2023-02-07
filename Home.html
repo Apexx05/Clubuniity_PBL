@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-TheClubCode</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-size: larger;
+        }
+
+        .content h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+
+        .background {
+            background-color: whitesmoke;
+        }
+
+        .navbar {
+            background: #2B3467;
+            border-radius: 0px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            display: inline;
+            float: right;
+            list-style: none;
+            padding-right: 20px;
+            margin: 30px 30px;
+            text-transform: uppercase;
+
+        }
+
+        .navbar li a {
+            padding: 5px 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: #002ead;
+            border-color: greenyellow;
+        }
+
+        .navbar li a:active {
+            background-color: rgb(68, 67, 117);
+        }
+
+        .logo {
+            padding-left: 50px;
+            padding-top: 25px;
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            text-align: left;
+
+        }
+
+        .content {
+
+            margin: 10px 10px;
+        }
+
+        .club {
+            display: flex;
+            padding: 0.25rem;
+            border: 5px solid black;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            margin-left: 10rem;
+            margin-right: 10rem;
+            background-color: rgba(198, 218, 196, 0.39)
+        }
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .buttons {
+            position: absolute;
+            margin-left: auto;
+            margin-top: 7rem;
+
+        }
+
+        .buttons button:hover {
+            background-color: #002ead;
+            transition: 0.7s;
+        }
+
+        .buttons button {
+            width: 100px;
+            background-color: #2B3467;
+            border: none;
+            border-radius: 10px;
+            padding: 8px;
+            min-height: 30px;
+            min-width: 120px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sagelogo {
+
+            margin-left: 30rem;
+
+        }
+
+        .heading {
+            text-align: center;
+            text-transform: uppercase;
+        }
+    </style>
+
+</head>
+
+<body class="background">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="lgoinPage.html">Login!</a></li>
+                <li><a href="#">Clubs</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <div class="logo">
+                    <h3><a href="Home.html">CLUBUNITY</a></h3>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="sagelogo">
+
+        <img src="/image/sagelogo.png" alt="">
+
+    </div>
+    <h1 class="heading">clubs in sage University bhopal</h1>
+
+    <div class="content">
+        <div class="club" id="culb-1">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/sportsclub.jpg"
+                alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>Sports Club</h1>
+                <p>With the aim to learn teamwork, coordination among diverse cultural & ethnic groups and mainly
+                    infusing discipline & instilling the value system in an individual.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="club" id="culb-2">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/literatureclub.jpg"
+                alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>literature club</h1>
+                <p>It’s a place where student can meet to read and write, The club is also based upon using the
+                    creativity skills it take to be a writer, the club helps in inculcating within its members elite
+                    skills, interpersonal skills communication skills.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="club" id="culb-3">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;"
+                src="image/photography club.jpg" alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>photography club</h1>
+                <p>The aim of this club is to motivate student to exhibit their talent in photography and videography.
+                    To express their taught with an emphasis on perceptual, technical and artistic skills.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="club" id="culb-1">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/codingclub.jpg"
+                alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>coding club</h1>
+                <p>Which helps members gain in-depth knowledge of coding. This helps them immensely during placements
+                    and can also bring laurels to the institution through various programming contests like.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="club" id="culb-1">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/culturalclub.jpg"
+                alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>cultural Club</h1>
+                <p>It Aims to encourage student’s interest, participation, and responsibility in the ingenious field
+                    through a medium of creative art, ability, interest & Scope. The motive is to provide social,
+                    cultural and recreational activities for the college community.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="club" id="culb-1">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/inovationclub.jpg"
+                alt="" height="150px" width="150px">
+            <div class="div1">
+                <h1>inovation club</h1>
+                <p>Which enables the student to generate new ideas and become more innovative, and also create
+                    awareness, educate, nurture and inculcate a culture of innovation.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="club" id="culb-1">
+            <img style="border: 2px solid red ; border-radius: 10px; margin-right: 1rem;" src="image/nss.jpg" alt=""
+                height="150px" width="150px">
+            <div class="div1">
+                <h1>nss club</h1>
+                <p>National service scheme (NSS) was introduced in 1969 with the primary objective of developing the
+                    Personality and character of the student. “Education through service “is the purpose of NSS.</p>
+
+                <div class="buttons">
+                    <button><a href="readmore.html"> Read More...</a></button>
+                    <button><a href="joinnow.html"> Join Now</a></button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footer_list_1">
+                <ul>
+                    <a href="#">
+                        <li>This is Footer</li>
+                    </a>
+                    <a href="#">
+                        <li>12s</li>
+                    </a>
+                    <a href="#">
+                        <li>gha</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer_list_2">
+                <ul>
+                    <a href="#">
+                        <li>1</li>
+                    </a>
+                    <a href="#">
+                        <li>2</li>
+                    </a>
+                    <a href="#">
+                        <li>3</li>
+                    </a>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

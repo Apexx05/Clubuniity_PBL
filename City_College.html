@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select City and College</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: whitesmoke;
+        }
+
+        
+
+        .heading {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .form {
+            width: max-content;
+            margin: 0 auto;
+            margin-top: 10rem;
+            border: .1px double black;
+            border-radius: 15px;
+            padding: 1rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .formelement{
+            padding: 20px;
+            margin: auto;
+        }
+
+        .button button {
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            width: 100px;
+            background-color: #2B3467;
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+            min-height: 30px;
+            min-width: 120px;
+        }
+
+
+
+        /* .formelemnt {
+            border: 1px solid coral;
+            border-radius: 10px;
+            padding: 5px;
+            margin-bottom: 0.5rem;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <h1 class="heading">Please Select your City and College</h1>
+    <div class="form">
+        <div class="formelement">
+            <label for="city">Select City:</label>
+            <select name="mycity" id="city">
+                <option value="bhopal">Bhopal</option>
+                <!-- <option value="indore">Indore</option> -->
+            </select>
+        </div>
+        <div class="formelement">
+            <label for="college">Select College:</label>
+            <select name="mycollege" id="college">
+                <option value="sagebhopal">Sage University Bhopal</option>
+                <!-- <option value="sageindore">Sage University Indore</option> -->
+            </select>
+
+        </div>
+        <a href="Home.html" class="button"><button>Search</button></a>
+    </div>
+
+
+</body>
+
+</html>
